@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<head>
+    <title>introduction to javascript</title>
+</head>
+<body>
+    <!--internal javascript-->
+    <script>
+        document.write("welcome to javascript", "<br>");
+
+        console.log("welcoke to javascript");
+        console.table([1,2,3,4,5]);
+
+        document.write(10+10, "<br>");
+        document.write(10+"10","<br>")
+        document.write(10 + + "10","<br>");
+
+        document.write(10- "10", "<br>");
+        document.write(10 * "10", "<br>");
+        document.write(10 / "10", "<br>");
+        document.write(10 / "0", "<br>");
+        document.write(10 / "A", "<br>");
+        document.write("A" / "A", "<br>");
+
+        document.write( 10 + 5 / 10 - 5, "<br>");
+                      // 10 + 0.5 - 5
+                      // 10.5 - 5
+                      // 5.5
+
+        //BODMAS
+        //B - Bracket
+        //O - Of
+        //D - Division
+        //M - Multiplication
+        //A - Addition
+        //S - Substraction
+
+        document.write( (10+5) / (10-5), "<br>");
+
+        // = Assignment
+        // == Comparision
+        // === Strict Comparision
+
+        document.write( 10 == "10", "<br>");
+        document.write( 10 === "10", "<br>");
+        document.write( 10 == "ten", "<br>");
+        document.write( 10 === "ten", "<br>");
+
+
+        document.write(0.1 + 0.2, "<br>");       //0.30000000000000004
+        document.write(0.1+0.2 == 0.3, "<br>");
+        document.write(0.1+0.2 === 0.3, "<br>");
+
+
+        //Ternary Operator
+        //based on condition the code will executed
+
+        true ? document.write("Frontend", "<br>"): document.write("Backend", "<br>");
+        false ? document.write("Frontend", "<br>"): document.write("Backend", "<br>");
+
+
+        // true - 1
+        // false - 0
+
+        document.write( true + true , "<br>");
+        document.write( true + false, "<br>");
+        document.write( true / false, "<br>");
+        document.write( true * "1", "<br>");
+        document.write( true/"A", "<br>");
+
+        3>2>1 ? document.write("frontend", "<br>"): document.write("backend", "<br>");
+        // execution is done from left to right
+        // 3>2 is true
+        // true>1 is false
+
+        1<2<3 ? document.write("backend", "<br>"): document.write("frontend","<br>");
+        // execution is done from left to right
+        // 1<2 is true
+        // true<3 is true   
+        
+
+
+
+    </script>
+</body>
